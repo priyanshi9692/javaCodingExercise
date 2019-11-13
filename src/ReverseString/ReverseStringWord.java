@@ -14,7 +14,6 @@ public class ReverseStringWord {
             for(int i= s.length-1; i>=0; i--){
                 if(!s[i].equals(" ")){
                     s1.append(s[i]).append(" ");
-
                 }
             }
             return s1.length()==0 ? " " : s1.substring(0, s1.length() - 1);
