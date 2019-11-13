@@ -3,24 +3,29 @@ package ReverseString;
 import java.util.Arrays;
 
 public class ReplaceChar {
+
+    public static void main(String[] args){
+        ReplaceChar r= new ReplaceChar();
+        System.out.println(r.replaceCharacter("priyanshi", 4, 'e'));
+    }
+
     public String replaceCharacter(String str, int pos, char replacement){
         if(str.length()==0){
-            return " ";
+            return null;
         }
         char[] a = str.toCharArray();
         for(int i=0; i<a.length; i++){
             if(i==pos){
-                a[i]+=replacement;
+                a[i]=replacement;
+                break;
             }
             else{
-                return " ";
+                continue;
             }
         }
 
-        return str;
+        return new String(a);
     }
-    public static void main(String[] args){
-        ReplaceChar r= new ReplaceChar();
-        System.out.println(r.replaceCharacter("abc", 0, 'e'));
-    }
+
 }
+//Time Complexity: O(n) Space Complexity: O(n)

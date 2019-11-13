@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f50c5229-b861-4b97-b3fe-51f5b1675f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindowProblem/SlidingWindowProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/ReverseString/ReverseStringWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/ReverseString/ReverseStringWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/SkyLine$XYPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/SkyLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/ReverseString/ReplaceChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/ReverseString/ReplaceChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseString/ReplaceChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseString/ReplaceChar.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SlidingWindowProblem">
+  <component name="RunManager" selected="Application.ReplaceChar">
     <configuration name="IsomorphicString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReverseString.IsomorphicString" />
       <module name="java_coding" />
@@ -87,13 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkyLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SkylineProblem.SkyLine" />
-      <module name="java_coding" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SlidingWindowProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindowProblem.SlidingWindowProblem" />
       <module name="java_coding" />
@@ -107,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoSum.TwoSum" />
+      <module name="java_coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TwoSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReplaceChar" />
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.SlidingWindowProblem" />
         <item itemvalue="Application.RepetitiveLetters" />
         <item itemvalue="Application.IsomorphicString" />
-        <item itemvalue="Application.SkyLine" />
-        <item itemvalue="Application.ReplaceChar" />
       </list>
     </recent_temporary>
   </component>
@@ -142,5 +146,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_coding$ReplaceChar.ic" NAME="ReplaceChar Coverage Results" MODIFIED="1573623122278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ReverseString.*</FILTER>
+    </SUITE>
   </component>
 </project>
