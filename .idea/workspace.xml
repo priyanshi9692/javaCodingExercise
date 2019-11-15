@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f50c5229-b861-4b97-b3fe-51f5b1675f82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversal/TreeTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/ReverseString/ReplaceChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/ReverseString/ReplaceChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseString/ReplaceChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseString/ReplaceChar.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -45,13 +45,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReplaceChar">
-    <configuration name="IsomorphicString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseString.IsomorphicString" />
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeTraversal.BinaryTree" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReverseString.*" />
+          <option name="PATTERN" value="TreeTraversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.ReplaceChar" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.SlidingWindowProblem" />
         <item itemvalue="Application.RepetitiveLetters" />
-        <item itemvalue="Application.IsomorphicString" />
       </list>
     </recent_temporary>
   </component>
