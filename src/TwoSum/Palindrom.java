@@ -20,4 +20,4 @@ public class Palindrom {
         System.out.println(num.IsPalindrom(1341));
     }
 }
-//time complexity: O(n) and Space Complexity: O(n)
+//time complexity: O(1) and Space Complexity: O(n)
