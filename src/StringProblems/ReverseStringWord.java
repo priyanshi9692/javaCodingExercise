@@ -1,8 +1,7 @@
-package ReverseString;
+package StringProblems;
 
 import java.lang.*;
-import java.io.*;
-import java.util.*;
+
 public class ReverseStringWord {
     public String reverseWords(String str){
         if(str==null || str.length()==0){

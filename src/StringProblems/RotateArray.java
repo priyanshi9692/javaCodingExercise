@@ -1,4 +1,4 @@
-package ReverseString;
+package StringProblems;
 
 public class RotateArray {
     public void rotateArray(int[] nums, int k) {

@@ -1,4 +1,4 @@
-package ReverseString;
+package StringProblems;
 
 import java.util.HashMap;
 

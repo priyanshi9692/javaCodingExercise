@@ -1,6 +1,4 @@
-package ReverseString;
-
-import java.util.Arrays;
+package StringProblems;
 
 public class ReplaceChar {
 

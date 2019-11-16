@@ -1,5 +1,4 @@
-package ReverseString;
-import java.util.*;
+package StringProblems;
 
 public class PalindromString {
     public boolean isPalindromString(String str){
