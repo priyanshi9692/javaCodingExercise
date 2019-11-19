@@ -1,4 +1,4 @@
-package TwoSum;
+package NumericProblems;
 
 public class Palindrom {
     public boolean IsPalindrom(int num) {
