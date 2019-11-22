@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f50c5229-b861-4b97-b3fe-51f5b1675f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NumericProblems/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumericProblems/Sqrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblems/LengthOfLastString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/TwoSum/Palindrom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/TwoSum/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoSum/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/Palindrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoSum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/PrimeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +47,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sqrt">
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.LinkedList" />
+  <component name="RunManager" selected="Application.LengthOfLastString">
+    <configuration name="LengthOfLastString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringProblems.LengthOfLastString" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="StringProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sqrt" />
+        <item itemvalue="Application.LengthOfLastString" />
         <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.Sqrt" />
         <item itemvalue="Application.RomanToInt" />
         <item itemvalue="Application.LongestPrefixString" />
-        <item itemvalue="Application.LinkedList" />
       </list>
     </recent_temporary>
   </component>
