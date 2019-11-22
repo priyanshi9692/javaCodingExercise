@@ -15,6 +15,6 @@ public class PrimeNumber {
     }
     public static void main(String[] args){
         PrimeNumber num=new PrimeNumber();
-        System.out.println(num.isPrimeNumber(4));
+        System.out.println(num.isPrimeNumber(23));
     }
 }
