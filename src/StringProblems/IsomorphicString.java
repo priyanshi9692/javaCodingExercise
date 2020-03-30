@@ -28,7 +28,7 @@ public class IsomorphicString {
     }
         public static void main(String[] args){
             IsomorphicString str= new IsomorphicString();
-            System.out.println(str.isIsomorphicStr("eggf", "adda"));
+            System.out.println(str.isIsomorphicStr("are", "far"));
 
         }
 }
