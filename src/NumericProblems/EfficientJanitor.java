@@ -1,6 +1,7 @@
 package NumericProblems;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /*
@@ -14,6 +15,7 @@ public class EfficientJanitor {
         if(weights == null || weights.size()==0){
             return 0;
         }
+        Collections.sort(weights);
         int start = 0;
         int end = weights.size()-1;
         int trips = 0;
