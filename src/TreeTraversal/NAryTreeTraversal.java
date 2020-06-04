@@ -9,6 +9,7 @@ Input: root = [1,null,3,2,4,null,5,6]
 Output: [5,6,3,2,4,1]
 
  */
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -16,7 +17,7 @@ import java.util.List;
 public class NAryTreeTraversal {
     static class Node{
         public int val;
-        public List<Node> children;
+        public List<Node> children = new ArrayList<Node>();
 
         public Node() {}
 
@@ -53,7 +54,7 @@ public class NAryTreeTraversal {
             return result;
         }
         stack.add(root);
-        while(root!=null || !stack.isEmpty()){
+        while(!stack.isEmpty()){
             Node node = stack.pollLast();
             result.add(node.val);
             Collections.reverse(node.children);
@@ -66,8 +67,9 @@ public class NAryTreeTraversal {
     public static void main(String[] args){
         NAryTreeTraversal obj = new NAryTreeTraversal();
         Node root = new Node(1);
-        root.children.add(new Node(3));
+
         root.children.add(new Node(2));
+        root.children.add(new Node(3));
         root.children.add(new Node(4));
 
         root.children.get(0).children.add(new Node(5));
