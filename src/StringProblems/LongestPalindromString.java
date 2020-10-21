@@ -36,6 +36,4 @@ public class LongestPalindromString {
         System.out.println(obj.longestPalindromSubstring("babadac"));
     }
 
-
-
 }

@@ -48,11 +48,11 @@ public class PalindromLinkedList {
       PalindromLinkedList obj = new PalindromLinkedList();
         ListNode head = new ListNode(1);
         ListNode second = new ListNode(2);
-        ListNode third = new ListNode(3);
+        ListNode third = new ListNode(1);
         head.next=second;
         second.next=third;
         third.next=null;
 
-        System.out.println(obj.reverseList(head));
+        System.out.println(obj.isPalindrom(head));
     }
 }

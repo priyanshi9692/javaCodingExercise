@@ -23,6 +23,7 @@ class BinaryTree
 
     /* Given a binary tree, print its nodes according to the
     "bottom-up" postorder traversal. */
+    //Postorder (Left, Right, Root)
     void printPostorder(Node node)
     {
         if (node == null)
@@ -55,6 +56,7 @@ class BinaryTree
     }
 
     /* Given a binary tree, print its nodes in preorder*/
+    //  Preorder (Root, Left, Right)
     void printPreorder(Node node)
     {
         if (node == null)

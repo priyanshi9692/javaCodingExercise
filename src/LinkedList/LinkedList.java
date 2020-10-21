@@ -1,8 +1,6 @@
 package LinkedList;
 
-import java.io.*;
-
-public class LinkedList {
+public class LinkedList<I extends Number> {
     Node head;
     static class Node {
         int val;
@@ -13,7 +11,7 @@ public class LinkedList {
             next = null;
         }
     }
-    public static LinkedList insertElements(LinkedList list, int value){
+    public static LinkedList<Number> insertElements(LinkedList<Number> list, int value){
 
         Node new_node = new Node(value);
         new_node.next = null;
@@ -32,7 +30,7 @@ public class LinkedList {
 
         return list;
     }
-    public static void printList(LinkedList list)
+    public static void printList(LinkedList<Number> list)
     {
         Node currNode = list.head;
 
@@ -49,7 +47,7 @@ public class LinkedList {
     public static void main(String[] args)
     {
         /* Start with the empty list. */
-        LinkedList list = new LinkedList();
+        LinkedList<Number> list = new LinkedList<Number>();
 
         //
         // ******INSERTION******

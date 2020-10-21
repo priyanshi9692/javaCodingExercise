@@ -23,8 +23,8 @@ public class MergeSortedArray {
         MergeSortedArray obj= new MergeSortedArray();
         int [] A={1,2,3,0,0,0};
         int [] B ={4,5,6};
-        int m= 3;
-        int n=3;
+        int m = 3;
+        int n = 3;
         obj.mergeSortedArray(A,B,m,n);
         for(int i=0 ; i<m+n; i++){
             System.out.print(A[i]+ "\t");

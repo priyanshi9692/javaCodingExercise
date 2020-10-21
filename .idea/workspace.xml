@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f50c5229-b861-4b97-b3fe-51f5b1675f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StringProblems/LengthOfLastString.java" afterDir="false" />
+    <list default="true" id="f50c5229-b861-4b97-b3fe-51f5b1675f82" name="Default Changelist" comment="LeetCode 559. Maximum Depth of N-ary Tree">
+      <change afterPath="$PROJECT_DIR$/src/HashMap/Iterations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/SwapNodesInPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/ConcatenateSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/HIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/KeysAndRooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/MeanGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/SearchInRotatedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/META-INF/java_coding.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/PrimeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumericProblems/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/StringProblems/IsomorphicString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/IsomorphicString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/StringProblems/RotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/RotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/PalindromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/PalindromLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/ComplementANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/ComplementANumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/ConstructARectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/ConstructARectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/EvaluateReversePolishNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/EvaluateReversePolishNotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/InsertInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/InsertInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/KthLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/KthLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/MaximumConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/MaximumConsecutiveOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/MinCostClimbing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/MinCostClimbing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/MinimumSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/MinimumSizeSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/MoveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/PascalsTriangle118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/PascalsTriangle118.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/PermutationsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/PermutationsII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/RotateMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/RotateMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblems/GroupOfAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/GroupOfAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblems/LongestPalindromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/LongestPalindromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblems/RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/RegularExpressionMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblems/ReverseWordsInStringIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/ReverseWordsInStringIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblems/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/RotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblems/StudentAttendanceRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/StudentAttendanceRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblems/WildcardMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/WildcardMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeTraversal/BinaryInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeTraversal/BinaryInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeTraversal/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeTraversal/TreeTraversal.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +62,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SriScMkFg82sYkLyfriQOKM6sK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -35,47 +78,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.LengthOfLastString">
-    <configuration name="LengthOfLastString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringProblems.LengthOfLastString" />
-      <module name="java_coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPrefixString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringProblems.LongestPrefixString" />
-      <module name="java_coding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringProblems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumericProblems.PrimeNumber" />
+  <component name="RunManager" selected="Application.NextPermutation">
+    <configuration name="ConcatenateSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumericProblems.ConcatenateSum" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringProblems.RomanToInt" />
+    <configuration name="HIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumericProblems.HIndex" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringProblems.*" />
+          <option name="PATTERN" value="NumericProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,8 +105,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumericProblems.Sqrt" />
+    <configuration name="Iterations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMap.Iterations" />
+      <module name="java_coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeanGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumericProblems.MeanGroups" />
+      <module name="java_coding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumericProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumericProblems.NextPermutation" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
@@ -115,14 +146,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LengthOfLastString" />
-        <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.Sqrt" />
-        <item itemvalue="Application.RomanToInt" />
-        <item itemvalue="Application.LongestPrefixString" />
+        <item itemvalue="Application.NextPermutation" />
+        <item itemvalue="Application.ConcatenateSum" />
+        <item itemvalue="Application.MeanGroups" />
+        <item itemvalue="Application.Iterations" />
+        <item itemvalue="Application.HIndex" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -134,6 +166,161 @@
       <option name="presentableId" value="Default" />
       <updated>1572328115531</updated>
     </task>
+    <task id="LOCAL-00001" summary="LeetCode Problem 141. Linked List Cycle">
+      <created>1591234758346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591234758346</updated>
+    </task>
+    <task id="LOCAL-00002" summary="LeetCode Problem 589 and 590 N-Ary Preorder &amp; Postorder Tree">
+      <created>1591242990842</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591242990842</updated>
+    </task>
+    <task id="LOCAL-00003" summary="LeetCode Problem 589 and 590 N-Ary Preorder &amp; Postorder Traversal">
+      <created>1591245775417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591245775417</updated>
+    </task>
+    <task id="LOCAL-00004" summary="LeetCode Problem 94 and 617 Inorder and Merge trees">
+      <created>1591245811222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591245811222</updated>
+    </task>
+    <task id="LOCAL-00005" summary="LeetCode 7. Reverse an Integer">
+      <created>1591252557010</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591252557010</updated>
+    </task>
+    <task id="LOCAL-00006" summary="LeetCode 104 Maximum Depth of a Binary Tree">
+      <created>1591254382456</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591254382456</updated>
+    </task>
+    <task id="LOCAL-00007" summary="LeetCode 559. Maximum Depth of N-ary Tree">
+      <created>1591255541938</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591255541938</updated>
+    </task>
+    <task id="LOCAL-00008" summary="LeetCode 112. Path Sum">
+      <created>1591256261737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591256261737</updated>
+    </task>
+    <task id="LOCAL-00009" summary="LeetCode 704. Binary Search">
+      <created>1591337795692</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591337795692</updated>
+    </task>
+    <task id="LOCAL-00010" summary="LeetCode 278. First Bad Version">
+      <created>1591337824036</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591337824036</updated>
+    </task>
+    <task id="LOCAL-00011" summary="LeetCode 844. Backspace String Compare">
+      <created>1591337857520</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591337857520</updated>
+    </task>
+    <task id="LOCAL-00012" summary="LeetCode 125. Valid Palindrome">
+      <created>1591337888881</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591337888881</updated>
+    </task>
+    <task id="LOCAL-00013" summary="LeetCode 101 Symmetric Trees">
+      <created>1591337934498</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591337934498</updated>
+    </task>
+    <task id="LOCAL-00014" summary="LeetCode 657. Robot Return to Origin">
+      <created>1591426736954</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591426736954</updated>
+    </task>
+    <task id="LOCAL-00015" summary="LeetCode 21. Merge Two Sorted Lists">
+      <created>1591426876164</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591426876164</updated>
+    </task>
+    <task id="LOCAL-00016" summary="LeetCode 876. Middle of the Linked List">
+      <created>1591426919521</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591426919521</updated>
+    </task>
+    <task id="LOCAL-00017" summary="LeetCode 11 Container With Most Water">
+      <created>1592021824400</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1592021824400</updated>
+    </task>
+    <task id="LOCAL-00018" summary="LeetCode 16. 3Sum Closest">
+      <created>1592023014962</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1592023014962</updated>
+    </task>
+    <task id="LOCAL-00019" summary="LeetCode 515. Find Largest Value in Each Tree Row">
+      <created>1592028740625</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1592028740625</updated>
+    </task>
+    <task id="LOCAL-00020" summary="LeetCode 287. Find the Duplicate Number">
+      <created>1592030116658</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1592030116658</updated>
+    </task>
+    <task id="LOCAL-00021" summary="LeetCode 814. Binary Tree Pruning">
+      <created>1592525967269</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1592525967269</updated>
+    </task>
+    <task id="LOCAL-00022" summary="LeetCode 846. Hand of Straights">
+      <created>1592526039574</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1592526039574</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,13 +328,92 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LeetCode Problem 141. Linked List Cycle" />
+    <MESSAGE value="LeetCode Problem 589 and 590 N-Ary Preorder &amp; Postorder Tree" />
+    <MESSAGE value="LeetCode Problem 589 and 590 N-Ary Preorder &amp; Postorder Traversal" />
+    <MESSAGE value="LeetCode Problem 94 and 617 Inorder and Merge trees" />
+    <MESSAGE value="LeetCode 7. Reverse an Integer" />
+    <MESSAGE value="LeetCode 104 Maximum Depth of a Binary Tree" />
+    <MESSAGE value="LeetCode 559. Maximum Depth of N-ary Tree" />
+    <MESSAGE value="LeetCode 112. Path Sum" />
+    <MESSAGE value="LeetCode 704. Binary Search" />
+    <MESSAGE value="LeetCode 278. First Bad Version" />
+    <MESSAGE value="LeetCode 844. Backspace String Compare" />
+    <MESSAGE value="LeetCode 125. Valid Palindrome" />
+    <MESSAGE value="LeetCode 101 Symmetric Trees" />
+    <MESSAGE value="LeetCode 657. Robot Return to Origin" />
+    <MESSAGE value="LeetCode 21. Merge Two Sorted Lists" />
+    <MESSAGE value="LeetCode 876. Middle of the Linked List" />
+    <MESSAGE value="LeetCode 11 Container With Most Water" />
+    <MESSAGE value="LeetCode 16. 3Sum Closest" />
+    <MESSAGE value="LeetCode 515. Find Largest Value in Each Tree Row" />
+    <MESSAGE value="LeetCode 287. Find the Duplicate Number" />
+    <MESSAGE value="LeetCode 814. Binary Tree Pruning" />
+    <MESSAGE value="LeetCode 846. Hand of Straights" />
+    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 846. Hand of Straights" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603243863131">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1603243863131" />
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1440.0.1600.900/0.0.1440.900@0.0.1440.900" timestamp="1602298944598" />
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom" timestamp="1601535242853">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601535242853" />
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1597732056256" />
+    <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1600325616355" />
+    <state width="1398" height="158" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1600314721539" />
+    <state width="1398" height="190" key="GridCell.Tab.0.center" timestamp="1601535242852">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="190" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601535242852" />
+    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1597732056255" />
+    <state width="1398" height="246" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1600325616354" />
+    <state width="1398" height="158" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1600314721538" />
+    <state width="1398" height="190" key="GridCell.Tab.0.left" timestamp="1601535242851">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="190" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601535242851" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1597732056255" />
+    <state width="1398" height="246" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1600325616354" />
+    <state width="1398" height="158" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1600314721538" />
+    <state width="1398" height="190" key="GridCell.Tab.0.right" timestamp="1601535242852">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="190" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601535242852" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1597732056256" />
+    <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1600325616354" />
+    <state width="1398" height="158" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1600314721538" />
+    <state width="1398" height="246" key="GridCell.Tab.1.bottom" timestamp="1600325616355">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="246" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1600325616355" />
+    <state width="1398" height="246" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1600314377579" />
+    <state width="1398" height="246" key="GridCell.Tab.1.center" timestamp="1600325616355">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="246" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1600325616355" />
+    <state width="1398" height="246" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1600314377578" />
+    <state width="1398" height="246" key="GridCell.Tab.1.left" timestamp="1600325616355">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="246" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1600325616355" />
+    <state width="1398" height="246" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1600314377578" />
+    <state width="1398" height="246" key="GridCell.Tab.1.right" timestamp="1600325616355">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="246" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1600325616355" />
+    <state width="1398" height="246" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1600314377578" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_coding$ReplaceChar.ic" NAME="ReplaceChar Coverage Results" MODIFIED="1573623122278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
