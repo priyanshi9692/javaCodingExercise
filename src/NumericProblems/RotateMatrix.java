@@ -57,3 +57,26 @@ public class RotateMatrix {
 
     }
 }
+
+//public int[][] rotatedImage(int[][] image){
+//
+//	int [][] result = new int[row][col];
+//	int row = image.length;
+//	int col = image[0].length;
+//   //transpose
+//    for(int i =0; i<row ; i++){
+//      for(int j =0; j<col; j++){
+//        result[j][i] = image[i][j];
+//      }
+//    }
+//
+//    //Reverse
+//    // 0,0 -> 0,2
+//    for(int i = 0; i<result.length; i++){
+//    		for(int j = 0; j<result[0].length/2; j++){
+//        			int temp = result[i][j];
+//        		result[i][j] = result[i][col-j-1];
+//            result[i][col-j-1] = temp;
+//      }
+//  }
+//return result;

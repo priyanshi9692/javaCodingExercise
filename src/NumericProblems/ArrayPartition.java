@@ -14,15 +14,15 @@ public class ArrayPartition {
             return 0;
         }
         Arrays.sort(nums);
-        int sum =0;
-        for(int i= 0; i<nums.length-1 ; i+=2){
+        int sum = 0;
+        for(int i = 0; i<nums.length-1 ; i+=2){
             sum = sum + Math.min(nums[i], nums[i+1]);
         }
         return sum;
     }
     public static void main(String[] args){
         ArrayPartition obj = new ArrayPartition();
-        int [] arr={1,4,3,2};
+        int [] arr={6,2,6,5,1,2};
         System.out.println(obj.arrayPairSum(arr));
     }
 }

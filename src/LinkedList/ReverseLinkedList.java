@@ -24,6 +24,15 @@ public class ReverseLinkedList {
         return prev;
     }
 
+    public static void printList(ListNode head){
+
+        ListNode n = head;
+        while(n!= null){
+            System.out.println(n.val+"->");
+            n = n.next;
+        }
+    }
+
     public static void main(String[] args){
         ReverseLinkedList obj = new ReverseLinkedList();
         ListNode head= new ListNode(1);

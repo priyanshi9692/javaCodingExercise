@@ -32,6 +32,7 @@ public class DeleteNodeLinkedList {
         node.val = node.next.val;
         node.next = node.next.next;
     }
+
     public static void main(String[] args){
         DeleteNodeLinkedList obj = new DeleteNodeLinkedList();
         ListNode head = new ListNode(1);

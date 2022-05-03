@@ -19,6 +19,7 @@ public class Iterations {
 
         TreeMap<String,Integer> tmap= new TreeMap<>(map);
 
+
         tmap.forEach((k,v)->{
             System.out.println(k+ " " + v);
         });

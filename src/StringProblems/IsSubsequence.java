@@ -27,6 +27,6 @@ public class IsSubsequence {
     }
     public static void main(String [] args){
         IsSubsequence obj = new IsSubsequence();
-        System.out.println(obj.isSubsequence("azc", "abdjuec"));
+        System.out.println(obj.isSubsequence("abc", "abdjuec"));
     }
 }

@@ -5,8 +5,7 @@ Alternative Number Problem
 public class AlternativeNumberReturn {
     public long alternateNumber(long num){
         String str = Long.toString(num);
-//
-        int k=0;
+        int k = 0;
         int j = str.length()-1;
         char[] ch = new char[str.length()];
         for(int i = 0; i<str.length(); i++){
@@ -19,7 +18,6 @@ public class AlternativeNumberReturn {
             }
         }
         String result =  new String(ch);
-//        System.out.println(result);
         return Long.parseLong(result);
     }
     public static void main(String[] args){

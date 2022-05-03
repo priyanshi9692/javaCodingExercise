@@ -1,7 +1,7 @@
 package StringProblems;
 
 public class RotateArray {
-    public void rotateArray(int[] nums, int k) {
+    public void rotateArrayRight(int[] nums, int k) {
         k %= nums.length;
         reverse(nums, 0, nums.length - 1);
         reverse(nums, 0, k - 1);
@@ -28,6 +28,8 @@ public class RotateArray {
             end--;
         }
     }
+
+
     public static void main(String[] args){
         RotateArray arr= new RotateArray();
         int a[]={1,2,3,4,5,6,7};

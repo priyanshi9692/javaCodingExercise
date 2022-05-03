@@ -6,7 +6,7 @@ public class BinaryObstacle {
             return 0;
         }
         int [][] result = new int[board.length][board[0].length];
-        int count=0;
+        int count = 0;
         result[0][0]=  1;
         for(int i=1; i<board.length; i++){
             if(board[i][0]==-1){
@@ -35,7 +35,7 @@ public class BinaryObstacle {
 
             }
         }
-        count=result[board.length-1][board[0].length-1];
+        count = result[board.length-1][board[0].length-1];
         return count;
     }
     public static void main(String [] args){

@@ -19,7 +19,8 @@ public class IntersectionArray {
         int[] result = new int[set2.size()];
         int i=0;
         for(int n: set2){
-            result[i++] = n;
+            result[i] = n;
+            i++;
 
         }
         for(int j=0; j<result.length; j++) {

@@ -1,5 +1,6 @@
 package NumericProblems;
 
+import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /*
@@ -30,9 +31,17 @@ public class KthLargestElement {
         }
         return pq.peek();
     }
+
+    public int kthLargest(int[] nums, int k){
+        Arrays.sort(nums);
+        return nums[nums.length-k];
+    }
     public static void main(String[] args){
         KthLargestElement obj = new KthLargestElement();
         int [] arr = {3,2,1,5,6,4};
-        System.out.println(obj.kthLargestElement(arr, 2));
+//        System.out.println(obj.kthLargestElement(arr, 2));
+        System.out.println(obj.kthLargest(arr, 2));
     }
 }
+
+// Min

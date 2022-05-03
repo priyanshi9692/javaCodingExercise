@@ -16,6 +16,8 @@ Output: true
 Explanation: There is a cycle in the linked list, where tail connects to the second node.
  */
 
+import java.util.HashSet;
+
 public class LinkedListCycle {
     public static class ListNode {
         int val;
@@ -37,6 +39,19 @@ public class LinkedListCycle {
         }
         return false;
     }
+    public boolean isListCycle(ListNode head){
+
+        HashSet<ListNode> hset = new HashSet<>();
+        while(head !=null) {
+            if(hset.contains(head)){
+                return true;
+            }else{
+                hset.add(head);
+            }
+            head = head.next;
+        }
+        return false;
+    }
     public static void main(String[] args){
         LinkedListCycle obj = new LinkedListCycle();
         ListNode head = new ListNode(1);
@@ -49,6 +64,7 @@ public class LinkedListCycle {
         third.next = fourth;
         fourth.next = fifth;
         fifth.next =null;
-        System.out.println(obj.isCycle(head));
+//        System.out.println(obj.isCycle(head));
+        System.out.println(obj.isListCycle(head));
     }
 }

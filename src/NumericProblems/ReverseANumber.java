@@ -35,6 +35,6 @@ public class ReverseANumber {
     }
     public static void main(String[] args){
         ReverseANumber obj = new ReverseANumber();
-        System.out.println(obj.reverseNumber(321));
+        System.out.println(obj.reverseNumber(-321));
     }
 }

@@ -1,49 +1,423 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50c5229-b861-4b97-b3fe-51f5b1675f82" name="Default Changelist" comment="LeetCode 559. Maximum Depth of N-ary Tree">
-      <change afterPath="$PROJECT_DIR$/src/HashMap/Iterations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/SwapNodesInPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumericProblems/ConcatenateSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumericProblems/HIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumericProblems/KeysAndRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumericProblems/MeanGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumericProblems/NextPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumericProblems/SearchInRotatedArray.java" afterDir="false" />
+    <list default="true" id="f50c5229-b861-4b97-b3fe-51f5b1675f82" name="Default Changelist" comment="&quot;Merge Intervals LeetCode Problem Solution&quot;">
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Algorithms/CurrencyConversion$Currency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Algorithms/CurrencyConversion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Algorithms/GCDAlgo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Arrays/ContainerWithMostWater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Arrays/FindLocalMaxima.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Arrays/KthLargestElementInArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Arrays/MeetingRoomsII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Arrays/TwoSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/LinkedList/AddTwoNumbers$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/LinkedList/AddTwoNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/LinkedList/CopyListWithRandomPointer$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/LinkedList/CopyListWithRandomPointer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/LinkedList/MergeTwoSortedLists$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/LinkedList/MergeTwoSortedLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/LinkedList/RemoveKNodeFromList$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/LinkedList/RemoveKNodeFromList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Strings/LongestSubstringWithoutRepeatingCharacters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/BinaryTreeMaximumPathSum$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/BinaryTreeMaximumPathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/CountCompleteTreeNodes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/CourseScheduleII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/DecodeString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/DiameterOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/DiameterOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/EvaluateDivision.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/FlipBinaryTrees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/LongestIncreasingPathInMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/NumberOfIslands.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/VerticalLevelTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/VerticalLevelTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/WordLadder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Java8Features/JavaStreams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Java8Features/LambdaExpressions$MathOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Java8Features/LambdaExpressions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Java8Features/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Java8Features/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/AdjacentSwapsToMakePalindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/BackspaceCompare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/CoinChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/CourseSchedule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/CourseScheduleII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/EfficientHarvesting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/FilterGivenWordsFromTheGivenString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/InsertIntoABinarySearchTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/InsertIntoABinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/JumpGame3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/LRUCache$DL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/LargestKFinding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/MaxLengthOfConcatenatedString$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/MaxLengthOfConcatenatedString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/MaximalRectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/MeetingRoomsII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/MinimumDeletionToMakeUniqueFrequency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/MinimumStepsToMakeEqualHeightPiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/ReverseStringInBetweenParenthese.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/SearchSuggestionsList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/StringToInteger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/WordSearchII$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/WordSearchII$Trie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/WordSearchII$TrieNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/MicrosoftOA/WordSearchII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/ArraysAndHashing/ContainsDuplicate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/ArraysAndHashing/MaximumPointsInLine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/ArraysAndHashing/MoveZeroes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/ArraysAndHashing/TopKFrequentElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/ArraysAndHashing/TwoSumVariation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/ArraysAndHashing/ValidAnagrams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Backtracking/CombinationSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Backtracking/CombinationSumII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Backtracking/LetterCombinationOfAPhoneNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Backtracking/NQueens.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Backtracking/PalindromePartitioning.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Backtracking/Permutations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Backtracking/Subsets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Backtracking/SubsetsII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Backtracking/WordSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/ClimbingStairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/CoinChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/DecodeWays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/HouseRobber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/HouseRobberII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/LongestIncreasingSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/LongestPalindromicSubstring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/MinimumCostOfClimbing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/PalindromicSubstrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/PartitionEqualSubsetSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/SubarrayMaximumProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/DPProblems/WordBreak.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Graphs/CourseSchedule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Graphs/CourseScheduleII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Graphs/MaxAreaOfIsland.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Graphs/NumberOfIsland.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Graphs/PacificAndAtlanticBoarder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Graphs/RottingOranges.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Graphs/SurroundedRegions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Graphs/WallsAndGates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Graphs/WordLadder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Strings/OneEditDistance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Strings/PalindromePermutations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Strings/PalindromePermutationsII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Strings/WildcardMatching.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/BalancedBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/BinaryTreeLevelOrderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/BinaryTreeMaxPathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/BinaryTreeRightSideView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/ConstructTreePreorderAndInorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/CountGoodNodesIntheBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/DiameterOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/InvertBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/KthSmallestElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/LowestCommonAncestorOfBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/MaximumDepthOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/SameTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/SerializeAndDeserializeBT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/SubtreeOfAnotherTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/Trees/ValidateBinarySearchTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/TwoDimDPProblems/UniquePaths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/AlternativeNumberReturn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ArrayProblemsRemove.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/CandyHard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/CarFleetII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ChangeColors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/CoinChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ConvertNestedListInTwoDArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/CountMatchingRule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/FactorsOfNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/FallSkewMean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/FlipArrayElements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/KDiffPairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/MakeDessert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/MaximumAscendingSubarraySum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/MergeIntervals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/MinimumAbsoluteDiff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/MinimumNumberOfOperationsToMakeSumEqual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/MultipleOfThreeAndFive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/NonRepeatingElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/PB3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/PBS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/PBS2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/PracticeQuestion10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ProductOfArrayExceptSelf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/RemoveCoveredIntervals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/RemoveDuplicatedII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/SetAccordingToLevels$CountComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/SetAccordingToLevels$Levels.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/SetAccordingToLevels.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/SpiralMatrixII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/Stream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/TrappingRainWater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/UtilizationChecks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Paypal/ColorMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/AlphabeticSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/BalloonProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/ExpandString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/FindTheDifference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/Longest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/WordBreak.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/WordLadder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/WordSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/JavaLambdaExpression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/RunnableInterface$MyRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/RunnableInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/RunnableInterfaceAsAnonymousClass$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/RunnableInterfaceAsAnonymousClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/StoppableRunnableInterface$StoppableRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/StoppableRunnableInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/ThreadCreation$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/ThreadCreation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/ThreadNameCurrentThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/Threads/TwoThreads.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/BinaryTreePostorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/BinaryTreePostorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/BinaryTreePreorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/BinaryTreePreorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/ConstructBSTWithPreAndInorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/ConstructBinaryTreeWithPostAndInorder$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/ConstructBinaryTreeWithPostAndInorder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/InorderTraversal$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/InorderTraversal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/MaximumPathSum$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/MaximumPathSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/MinimumDepthOfBST$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/MinimumDepthOfBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/PathSumII$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/PathSumII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/VerifyPreorderSerializationOfBinaryTree$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/VerifyPreorderSerializationOfBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/CurrencyConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/GCDAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Arrays/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Arrays/FindLocalMaxima.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Arrays/KthLargestElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Arrays/MeetingRoomsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Arrays/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/LinkedList/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/LinkedList/CopyListWithRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/LinkedList/MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/LinkedList/RemoveKNodeFromList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Strings/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/BinaryTreeMaximumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/CountCompleteTreeNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/CourseScheduleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/DiameterOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/EvaluateDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/FlipBinaryTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/LongestIncreasingPathInMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/NumberOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/VerticalLevelTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/WordLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8Features/FunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8Features/JavaStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8Features/LambdaExpressions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/AdjacentSwapsToMakePalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/BackspaceCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/CourseScheduleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/EfficientHarvesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/FilterGivenWordsFromTheGivenString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/InsertIntoABinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/JumpGame3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/LargestKFinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/MaxLengthOfConcatenatedString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/MaximalRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/MeetingRoomsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/MinimumDeletionToMakeUniqueFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/MinimumStepsToMakeEqualHeightPiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/ReverseStringInBetweenParenthese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/SearchSuggestionsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/StringToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MicrosoftOA/WordSearchII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/MaximumPointsInLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/TopKFrequentElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/TwoSumVariation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/ValidAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/CombinationSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/LetterCombinationOfAPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/PalindromePartitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/SubsetsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Backtracking/WordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/DecodeWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/HouseRobberII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/MinimumCostOfClimbing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/PalindromicSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/PartitionEqualSubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/SubarrayMaximumProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/DPProblems/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/CourseSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/CourseScheduleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/MaxAreaOfIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/NumberOfConnectedComponentsInDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/NumberOfIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/PacificAndAtlanticBoarder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/RottingOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/SurroundedRegions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/WallsAndGates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/WordLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Strings/OneEditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Strings/PalindromePermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Strings/PalindromePermutationsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Strings/WildcardMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/BalancedBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/BinaryTreeMaxPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/BinaryTreeRightSideView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/ConstructTreePreorderAndInorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/CountGoodNodesIntheBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/DiameterOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/InvertBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/KthSmallestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/LowestCommonAncestorOfBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/SerializeAndDeserializeBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/SubtreeOfAnotherTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Trees/ValidateBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/TwoDimDPProblems/UniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/ArrayProblemsRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/CandyHard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/CarFleetII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/ChangeColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/ConvertNestedListInTwoDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/CountMatchingRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/FactorsOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/FallCalculations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/FallSkewMean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/MakeDessert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/MaximumAscendingSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/MinimumAbsoluteDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/MinimumNumberOfOperationsToMakeSumEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/MultipleOfThreeAndFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/NonRepeatingElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/PB3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/PBS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/PBS2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/PracticeQuestion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/RemoveDuplicatedII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/SetAccordingToLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumericProblems/UtilizationChecks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Paypal/ColorMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblems/AlphabeticSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblems/BalloonProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblems/ExpandString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblems/FindTheDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblems/Longest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblems/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblems/WordLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringProblems/WordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/JavaLambdaExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/RunnableInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/RunnableInterfaceAsAnonymousClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/StoppableRunnableInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/ThreadNameCurrentThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Threads/TwoThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversal/BinaryTreePostorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversal/BinaryTreePreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversal/ConstructBSTWithPreAndInorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversal/ConstructBinaryTreeWithPostAndInorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversal/InorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversal/MaximumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversal/MinimumDepthOfBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversal/PathSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeTraversal/VerifyPreorderSerializationOfBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/HashMap/Iterations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/HashMap/Iterations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/AddTwoNumbers$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/DeleteNodeLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/DeleteNodeLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedList$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/META-INF/java_coding.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/PrimeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/StringProblems/IsomorphicString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/IsomorphicString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedListCycle$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedListCycle$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedListCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/LinkedListCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/OddEvenLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/OddEvenLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/LinkedList/ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/LinkedList/ReverseLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ArrayPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ArrayPartition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/AssignCookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/AssignCookie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/BrokenCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/BrokenCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/BuyAndSellStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/BuyAndSellStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/CanPlaceFlowers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/CanPlaceFlowers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/CombinationSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ConcatenateSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ConcatenateSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ConstructARectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ConstructARectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ContainsDuplicateII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ContainsDuplicateII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/FourSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/FourSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/InsertInterval$Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/InsertInterval$Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/InsertInterval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/InsertInterval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/IntersectionArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/IntersectionArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/KthLargestElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/KthLargestElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/MinCostClimbing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/MinCostClimbing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/NextPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/NextPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/Palindrom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/Palindrom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ReverseANumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/NumericProblems/ReverseANumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/StringProblems/GroupOfAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/GroupOfAnagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/StringProblems/IsSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/IsSubsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/StringProblems/LongestSubstringWithoutRepeatingLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/LongestSubstringWithoutRepeatingLetters.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java_coding/StringProblems/RotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/StringProblems/RotateArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/TreeTraversal/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMap/Iterations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMap/Iterations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/DeleteNodeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/DeleteNodeLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/PalindromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/PalindromLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/OddEvenLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumericProblems/ComplementANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/ComplementANumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/AddWithoutOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/AddWithoutOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/AlternativeNumberReturn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/AlternativeNumberReturn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/ArrayPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/ArrayPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/AssignCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/AssignCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/BinaryObstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/BinaryObstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/BrokenCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/BrokenCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/BuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/BuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/CanPlaceFlowers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/ConcatenateSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/ConcatenateSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NumericProblems/ConstructARectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/ConstructARectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumericProblems/EvaluateReversePolishNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/EvaluateReversePolishNotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/ContainsDuplicateII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/ContainsDuplicateII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/FlipArrayElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/FlipArrayElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/FourSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NumericProblems/InsertInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/InsertInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/IntersectionArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/IntersectionArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NumericProblems/KthLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/KthLargestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumericProblems/MaximumConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/MaximumConsecutiveOnes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumericProblems/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/MergeSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NumericProblems/MinCostClimbing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/MinCostClimbing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumericProblems/MinimumSizeSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/MinimumSizeSubarraySum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumericProblems/MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/MoveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumericProblems/PascalsTriangle118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/PascalsTriangle118.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumericProblems/PermutationsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/PermutationsII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/Palindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/Palindrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumericProblems/ReverseANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/ReverseANumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NumericProblems/RotateMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumericProblems/RotateMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringProblems/GroupOfAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/GroupOfAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblems/LongestPalindromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/LongestPalindromString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblems/IsSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/IsSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringProblems/LongestSubstringWithoutRepeatingLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/LongestSubstringWithoutRepeatingLetters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringProblems/RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/RegularExpressionMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblems/ReverseWordsInStringIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/ReverseWordsInStringIII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringProblems/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/RotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblems/StudentAttendanceRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/StudentAttendanceRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringProblems/WildcardMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringProblems/WildcardMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeTraversal/BinaryInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeTraversal/BinaryInorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeTraversal/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeTraversal/TreeTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,30 +435,45 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1SriScMkFg82sYkLyfriQOKM6sK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ReverseString" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GooglePhoneScreen.Trees" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.NextPermutation">
-    <configuration name="ConcatenateSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumericProblems.ConcatenateSum" />
+  <component name="RunManager" selected="Application.WordLadder">
+    <configuration name="CourseSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.Graphs.CourseSchedule" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NumericProblems.*" />
+          <option name="PATTERN" value="Neetcode.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +481,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumericProblems.HIndex" />
+    <configuration name="CourseScheduleII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.Graphs.CourseScheduleII" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NumericProblems.*" />
+          <option name="PATTERN" value="Neetcode.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +494,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Iterations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashMap.Iterations" />
+    <configuration name="RottingOranges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.Graphs.RottingOranges" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashMap.*" />
+          <option name="PATTERN" value="Neetcode.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +507,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MeanGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumericProblems.MeanGroups" />
+    <configuration name="WallsAndGates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.Graphs.WallsAndGates" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NumericProblems.*" />
+          <option name="PATTERN" value="Neetcode.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +520,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumericProblems.NextPermutation" />
+    <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.Graphs.WordLadder" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NumericProblems.*" />
+          <option name="PATTERN" value="Neetcode.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +535,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NextPermutation" />
-        <item itemvalue="Application.ConcatenateSum" />
-        <item itemvalue="Application.MeanGroups" />
-        <item itemvalue="Application.Iterations" />
-        <item itemvalue="Application.HIndex" />
+        <item itemvalue="Application.WordLadder" />
+        <item itemvalue="Application.CourseScheduleII" />
+        <item itemvalue="Application.CourseSchedule" />
+        <item itemvalue="Application.WallsAndGates" />
+        <item itemvalue="Application.RottingOranges" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +709,49 @@
       <option name="project" value="LOCAL" />
       <updated>1592526039574</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="&quot;Merge Intervals LeetCode Problem Solution&quot;">
+      <created>1603256280820</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603256280820</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Alternative sort and then return number">
+      <created>1603956070879</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603956070879</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Flip coins and arrange them in alternating manner">
+      <created>1603956112713</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603956112713</updated>
+    </task>
+    <task id="LOCAL-00026" summary="532. K-diff Pairs in an Array">
+      <created>1603956139636</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603956139636</updated>
+    </task>
+    <task id="LOCAL-00027" summary="1288. Remove Covered Intervals">
+      <created>1603956165092</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1603956165092</updated>
+    </task>
+    <task id="LOCAL-00028" summary="59. Spiral Matrix II">
+      <created>1603956199594</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603956199594</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,12 +764,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LeetCode Problem 141. Linked List Cycle" />
-    <MESSAGE value="LeetCode Problem 589 and 590 N-Ary Preorder &amp; Postorder Tree" />
-    <MESSAGE value="LeetCode Problem 589 and 590 N-Ary Preorder &amp; Postorder Traversal" />
     <MESSAGE value="LeetCode Problem 94 and 617 Inorder and Merge trees" />
     <MESSAGE value="LeetCode 7. Reverse an Integer" />
     <MESSAGE value="LeetCode 104 Maximum Depth of a Binary Tree" />
@@ -358,62 +785,13 @@
     <MESSAGE value="LeetCode 287. Find the Duplicate Number" />
     <MESSAGE value="LeetCode 814. Binary Tree Pruning" />
     <MESSAGE value="LeetCode 846. Hand of Straights" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode 846. Hand of Straights" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603243863131">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1603243863131" />
-    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1440.0.1600.900/0.0.1440.900@0.0.1440.900" timestamp="1602298944598" />
-    <state width="1398" height="190" key="GridCell.Tab.0.bottom" timestamp="1601535242853">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601535242853" />
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1597732056256" />
-    <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1600325616355" />
-    <state width="1398" height="158" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1600314721539" />
-    <state width="1398" height="190" key="GridCell.Tab.0.center" timestamp="1601535242852">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601535242852" />
-    <state width="1398" height="191" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1597732056255" />
-    <state width="1398" height="246" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1600325616354" />
-    <state width="1398" height="158" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1600314721538" />
-    <state width="1398" height="190" key="GridCell.Tab.0.left" timestamp="1601535242851">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601535242851" />
-    <state width="1398" height="191" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1597732056255" />
-    <state width="1398" height="246" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1600325616354" />
-    <state width="1398" height="158" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1600314721538" />
-    <state width="1398" height="190" key="GridCell.Tab.0.right" timestamp="1601535242852">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601535242852" />
-    <state width="1398" height="191" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1597732056256" />
-    <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1600325616354" />
-    <state width="1398" height="158" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1600314721538" />
-    <state width="1398" height="246" key="GridCell.Tab.1.bottom" timestamp="1600325616355">
-      <screen x="0" y="23" width="1440" height="798" />
-    </state>
-    <state width="1398" height="246" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1600325616355" />
-    <state width="1398" height="246" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1600314377579" />
-    <state width="1398" height="246" key="GridCell.Tab.1.center" timestamp="1600325616355">
-      <screen x="0" y="23" width="1440" height="798" />
-    </state>
-    <state width="1398" height="246" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1600325616355" />
-    <state width="1398" height="246" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1600314377578" />
-    <state width="1398" height="246" key="GridCell.Tab.1.left" timestamp="1600325616355">
-      <screen x="0" y="23" width="1440" height="798" />
-    </state>
-    <state width="1398" height="246" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1600325616355" />
-    <state width="1398" height="246" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1600314377578" />
-    <state width="1398" height="246" key="GridCell.Tab.1.right" timestamp="1600325616355">
-      <screen x="0" y="23" width="1440" height="798" />
-    </state>
-    <state width="1398" height="246" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1600325616355" />
-    <state width="1398" height="246" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1600314377578" />
+    <MESSAGE value="&quot;Merge Intervals LeetCode Problem Solution&quot;" />
+    <MESSAGE value="Alternative sort and then return number" />
+    <MESSAGE value="Flip coins and arrange them in alternating manner" />
+    <MESSAGE value="532. K-diff Pairs in an Array" />
+    <MESSAGE value="1288. Remove Covered Intervals" />
+    <MESSAGE value="59. Spiral Matrix II" />
+    <option name="LAST_COMMIT_MESSAGE" value="59. Spiral Matrix II" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_coding$ReplaceChar.ic" NAME="ReplaceChar Coverage Results" MODIFIED="1573623122278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

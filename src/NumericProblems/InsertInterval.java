@@ -18,9 +18,10 @@ Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
 import com.sun.prism.shader.AlphaOne_RadialGradient_AlphaTest_Loader;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
-    public class InsertInterval {
+public class InsertInterval {
         public static class Interval{
             int start;
             int end;
@@ -46,7 +47,27 @@ import java.util.ArrayList;
             result.add(newInterval);
             return result;
         }
-        public static void main(String[] args){
+
+        public int[][] insert(int[][] intervals, int[] newInterval) {
+            List<int[]> list = new ArrayList();
+            list.add(newInterval);
+            if (intervals.length == 0) return list.toArray(new int[list.size()][2]);
+
+            for (int i = 0; i < intervals.length; i++) {
+                int[] interval = intervals[i];
+                int[] lastInterval = list.get(list.size() - 1);
+                if (interval[1] < lastInterval[0]) {
+                    list.add(list.size() - 1, interval);
+                } else if (lastInterval[1] < interval[0]) {
+                    list.add(interval);
+                } else {
+                    list.get(list.size() - 1)[0] = Math.min(lastInterval[0], interval[0]);
+                    list.get(list.size() - 1)[1] = Math.max(lastInterval[1], interval[1]);
+                }
+            }
+            return list.toArray(new int[list.size()][2]);
+        }
+            public static void main(String[] args){
            InsertInterval obj = new InsertInterval();
            ArrayList<Interval> list = new ArrayList<>();
            list.add(new Interval(1,2));

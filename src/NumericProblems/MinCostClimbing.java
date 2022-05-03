@@ -21,7 +21,7 @@ public class MinCostClimbing {
             f2=f1;
             f1=f0;
         }
-        return Math.min(f2,f2);
+        return Math.min(f1,f2);
     }
     public static void main(String[] args){
         MinCostClimbing obj = new MinCostClimbing();

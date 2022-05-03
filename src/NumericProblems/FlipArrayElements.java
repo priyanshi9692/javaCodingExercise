@@ -18,7 +18,7 @@ public class FlipArrayElements {
     }
     public static void main(String[] args){
         FlipArrayElements obj = new FlipArrayElements();
-        int [] nums= {1,1,1,0,1};
+        int [] nums= {0,1,0,1,0};
         System.out.println(obj.flips(nums));
     }
 }

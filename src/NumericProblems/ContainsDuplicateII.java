@@ -11,7 +11,7 @@ public class ContainsDuplicateII {
         }
         int i=0;
 
-        HashSet<Integer> hset = new HashSet<Integer>();
+        HashSet<Integer> hset = new HashSet<>();
 
         for(int j=0; j<nums.length; j++){
             if(!hset.add(nums[j])){
@@ -19,7 +19,8 @@ public class ContainsDuplicateII {
             }
 
             if(hset.size()>=k+1){
-                hset.remove(nums[i++]);
+                hset.remove(nums[i]);
+                i++;
             }
         }
 

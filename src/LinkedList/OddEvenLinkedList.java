@@ -65,11 +65,11 @@ public class OddEvenLinkedList {
         fourth.next = fifth;
         fifth.next = null;
 
-        ListNode nodes = head;
-        while(nodes!=null){
-            System.out.println(nodes.val);
-            nodes = nodes.next;
-        }
+//        ListNode nodes = head;
+//        while(nodes!=null){
+//            System.out.println(nodes.val);
+//            nodes = nodes.next;
+//        }
 
      ListNode current = obj.oddEvenList(head);
       while(current!=null){

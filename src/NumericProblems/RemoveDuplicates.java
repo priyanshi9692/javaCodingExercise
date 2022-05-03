@@ -18,7 +18,7 @@ public class RemoveDuplicates {
     public static void main(String [] args){
         RemoveDuplicates arr=new RemoveDuplicates();
         int [] nums={1,1,2,2,3,4,4,4,5,5,5};
-        int n=arr.removeDuplicates(nums);
+        int n= arr.removeDuplicates(nums);
         for(int i=0; i<n; i++){
             System.out.print(nums[i]+ " ");
         }

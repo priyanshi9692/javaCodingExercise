@@ -7,46 +7,62 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 */
 
 public class AddTwoNumbers {
-    public class ListNode {
+    public static class ListNode {
       int val;
       ListNode next;
       ListNode(int x) { val = x; }
   }
-    public ListNode addTwoNumbers(ListNode one, ListNode two){
-        ListNode fake = new ListNode(0);
-        ListNode p = fake;
-        ListNode p1 = one;
-        ListNode p2 = two;
+    public static ListNode addTwoNumbers(ListNode one, ListNode two){
+        ListNode dummy = new ListNode(0);
+        ListNode p = one;
+        ListNode q = two;
+        ListNode current = dummy;
+
         int carry = 0;
-        while(p1!=null || p2!=null){
-            int sum = carry;
-            if(p1!=null){
-                sum += p1.val;
-                p1= p1.next;
+
+        while(p!= null || q!= null){
+            int x = p!= null ? p.val : 0;
+            int y = q!= null ? q.val : 0;
+
+            int sum = x+y+carry;
+            carry = sum/10;
+            current.next = new ListNode(sum%10);
+            current = current.next;
+
+            if(p!= null){
+                p = p.next;
             }
-            if(p2!=null){
-                sum += p2.val;
-                p2 = p2.next;
+            if(q!= null){
+                q = q.next;
             }
-            if(sum>9){
-                carry = 1;
-                sum = sum - 10;
+
+            if(carry>0){
+                current.next = new ListNode(carry);
             }
-            else{
-                carry = 0;
-            }
-            ListNode L = new ListNode(sum);
-            p.next = L;
-            p = p.next;
         }
-        if(carry>0){
-            ListNode L = new ListNode(carry);
-            p.next = L;
-        }
-        return fake.next;
+        return dummy.next;
     }
     public static void main(String [] args){
-        AddTwoNumbers obj = new AddTwoNumbers();
+        ListNode head = new ListNode(2);
+        ListNode first = new ListNode(4);
+        ListNode second = new ListNode(3);
+        head.next = first;
+        first.next = second;
+        second.next = null;
+
+        ListNode head1 = new ListNode(5);
+        ListNode first1 = new ListNode(6);
+        ListNode second1 = new ListNode(4);
+        head1.next = first1;
+        first1.next = second1;
+        second1.next = null;
+
+        ListNode result = addTwoNumbers(head, head1);
+
+        while(result!= null){
+            System.out.print(result.val+"->");
+            result = result.next;
+        }
 
     }
 }

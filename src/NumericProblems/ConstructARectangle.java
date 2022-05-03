@@ -23,7 +23,7 @@ public class ConstructARectangle {
     public int[] constructARectangle(int area){
         int[] result = new int[2];
         for(int i = (int)Math.sqrt(area); i>0; i-- ){
-            if(area%2==0){
+            if(area%i==0){
                 result[0] = area/i;
                 result[1] = i;
                 break;
@@ -34,7 +34,7 @@ public class ConstructARectangle {
     public static void main(String [] args){
         ConstructARectangle obj = new ConstructARectangle();
 
-        int[] arr =  obj.constructARectangle(4);
+        int[] arr =  obj.constructARectangle(37);
 
         System.out.print("["+ arr[0]+"\t"+","+arr[1]+ "]");
 

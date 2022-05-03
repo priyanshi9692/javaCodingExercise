@@ -28,6 +28,7 @@ public class GroupOfAnagram {
             char [] c = s.toCharArray();
             Arrays.sort(c);
             String key = String.valueOf(c);
+
             if(!result.containsKey(key)){
             result.put(key, new ArrayList());
             }

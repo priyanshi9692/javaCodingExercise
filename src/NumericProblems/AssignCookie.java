@@ -31,8 +31,8 @@ public class AssignCookie {
     }
     public static void main(String [] args){
         AssignCookie obj = new AssignCookie();
-        int [] child ={1,2};
-        int [] size ={1,2,3};
+        int [] child ={1,2,5,4};
+        int [] size ={1,2,4};
         System.out.println(obj.findContentChildren(child, size));
     }
 }

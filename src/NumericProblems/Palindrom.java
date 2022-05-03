@@ -17,7 +17,7 @@ public class Palindrom {
     }
     public static void main(String[] args){
         Palindrom num= new Palindrom();
-        System.out.println(num.IsPalindrom(1341));
+        System.out.println(num.IsPalindrom(1331));
     }
 }
 //time complexity: O(1) and Space Complexity: O(n)
