@@ -5,30 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f50c5229-b861-4b97-b3fe-51f5b1675f82" name="Default Changelist" comment="&quot;Merge Intervals LeetCode Problem Solution&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/ShortestPathInTheGridWithObstacleElimination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/Stack/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/Stack/Layer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/BestBuyAndSellTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/LargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/RemoveAllAdjacentDuplicateStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/ReverseWordsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/TrappingRainWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/LinkedList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/LinkedList/ReverseLinkedListII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/ValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/Strings/MinimumLengthSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/TwoPointer/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/TwoPointer/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/TwoPointer/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visa/FindTheRangeOfTheSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visa/MaximalSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Visa/MeetingRoomsII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/CountCompleteTreeNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/GooglePhoneScreen/Trees/CountCompleteTreeNodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_coding/Java8Features/JavaStreams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/Java8Features/JavaStreams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/CountCompleteTreeNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/Trees/CountCompleteTreeNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java8Features/JavaStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8Features/JavaStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Neetcode/Graphs/NumberOfConnectedComponentsInDirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Neetcode/Graphs/NumberOfConnectedComponentsInDirectedGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +67,13 @@
       <recent name="GooglePhoneScreen.Trees" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveAllAdjacentDuplicateStrings">
-    <configuration name="LargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Visa.LargestNumber" />
+  <component name="RunManager" selected="Application.ContainerWithMostWater">
+    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.TwoPointer.ContainerWithMostWater" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Visa.*" />
+          <option name="PATTERN" value="Neetcode.TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Visa.LinkedListCycle" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.TwoPointer.ThreeSum" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Visa.*" />
+          <option name="PATTERN" value="Neetcode.TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Visa.LongestConsecutiveSequence" />
+    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.TwoPointer.TwoSumII" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Visa.*" />
+          <option name="PATTERN" value="Neetcode.TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAllAdjacentDuplicateStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Visa.RemoveAllAdjacentDuplicateStrings" />
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.TwoPointer.ValidPalindrome" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Visa.*" />
+          <option name="PATTERN" value="Neetcode.TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Visa.ReverseWordsInString" />
+    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.ArraysAndHashing.ValidSudoku" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Visa.*" />
+          <option name="PATTERN" value="Neetcode.ArraysAndHashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveAllAdjacentDuplicateStrings" />
-        <item itemvalue="Application.LargestNumber" />
-        <item itemvalue="Application.ReverseWordsInString" />
-        <item itemvalue="Application.LinkedListCycle" />
-        <item itemvalue="Application.LongestConsecutiveSequence" />
+        <item itemvalue="Application.ContainerWithMostWater" />
+        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.TwoSumII" />
+        <item itemvalue="Application.ValidPalindrome" />
+        <item itemvalue="Application.ValidSudoku" />
       </list>
     </recent_temporary>
   </component>
