@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f50c5229-b861-4b97-b3fe-51f5b1675f82" name="Default Changelist" comment="&quot;Merge Intervals LeetCode Problem Solution&quot;">
-      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/LinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GooglePhoneScreen/LinkedList/ReverseLinkedListII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/ArraysAndHashing/ValidSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/Strings/MinimumLengthSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/TwoPointer/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/TwoPointer/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Neetcode/TwoPointer/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/FindTheRangeOfTheSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/MaximalSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visa/MeetingRoomsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facebook/Arrays/KFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facebook/DFS/MakeLargestIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facebook/Stack/BuildingView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facebook/Trees/SumOfAllTheLeafToRootPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facebook/Trees/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/TwoPointer/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/WindowSlidingProblems/BestTimeBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Neetcode/WindowSlidingProblems/LongestSubstringWithoutRepeatingCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_coding/Neetcode/TwoPointer/ContainerWithMostWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_coding/Neetcode/TwoPointer/ContainerWithMostWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Neetcode/TwoPointer/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Neetcode/TwoPointer/ContainerWithMostWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +65,13 @@
       <recent name="GooglePhoneScreen.Trees" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContainerWithMostWater">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Neetcode.TwoPointer.ContainerWithMostWater" />
+  <component name="RunManager" selected="Application.MakeLargestIsland">
+    <configuration name="BuildingView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Facebook.Stack.BuildingView" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Neetcode.TwoPointer.*" />
+          <option name="PATTERN" value="Facebook.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Neetcode.TwoPointer.ThreeSum" />
+    <configuration name="KFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Facebook.Arrays.KFrequentElements" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Neetcode.TwoPointer.*" />
+          <option name="PATTERN" value="Facebook.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Neetcode.TwoPointer.TwoSumII" />
+    <configuration name="LongestSubstringWithoutRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Neetcode.WindowSlidingProblems.LongestSubstringWithoutRepeatingCharacter" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Neetcode.TwoPointer.*" />
+          <option name="PATTERN" value="Neetcode.WindowSlidingProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Neetcode.TwoPointer.ValidPalindrome" />
+    <configuration name="MakeLargestIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Facebook.DFS.MakeLargestIsland" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Neetcode.TwoPointer.*" />
+          <option name="PATTERN" value="Facebook.DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Neetcode.ArraysAndHashing.ValidSudoku" />
+    <configuration name="SumOfAllTheLeafToRootPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Facebook.Trees.SumOfAllTheLeafToRootPaths" />
       <module name="java_coding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Neetcode.ArraysAndHashing.*" />
+          <option name="PATTERN" value="Facebook.Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.TwoSumII" />
-        <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.ValidSudoku" />
+        <item itemvalue="Application.MakeLargestIsland" />
+        <item itemvalue="Application.SumOfAllTheLeafToRootPaths" />
+        <item itemvalue="Application.KFrequentElements" />
+        <item itemvalue="Application.BuildingView" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacter" />
       </list>
     </recent_temporary>
   </component>
